@@ -1,8 +1,5 @@
-
 import React, { Component } from "react";
 import "./Client.css";
-
-
 export default class Client extends Component {
   constructor(props) {
     super(props);
