@@ -4,7 +4,7 @@ export default class Client extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
+      name: "",
       age: '',
       result: null
     };
@@ -23,7 +23,6 @@ export default class Client extends Component {
     let name = this.state.name;
     let age = this.state.age;
     let todo = { name: name, age: age };
-
     fetch("http://localhost:4000", {
       method: "POST",
       headers: {
