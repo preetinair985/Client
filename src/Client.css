@@ -1,0 +1,31 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.label-txt {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.submit-btn {
+    margin-right: 5%;
+}
+
+.end-display{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+span{
+padding-left: 10px;
+}
