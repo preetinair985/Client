@@ -8,7 +8,7 @@ export default class Client extends Component {
     super(props);
     this.state = {
       name: '',
-      age: "",
+      age: '',
       result: null
     };
     this.handleChange = this.handleChange.bind(this);
